@@ -1,4 +1,5 @@
 import subprocess
+import consultas
 import readfile as mread
 
 servidor = "DKWJLRT\SQLJLRT"
@@ -73,12 +74,23 @@ def extraer_informacion():
     print("Información extraída")
 
 def cargar_informacion():
-    # Implementar la lógica para cargar información
     print("Cargando información...")
+    comando = [
+        "sqlcmd",
+        "-S", servidor,
+        "-U", usuario,
+        "-P", contraseña,
+        "-d", base_datos,
+        "-i", "./db/scripts/cargar_informacion.sql"
+    ]
+    try:
+        resultado = subprocess.run(comando, check=True, text=True, capture_output=True)
+        print("Información cargada")
+    except subprocess.CalledProcessError as e:
+        print("Error:", e.stderr)
 
 def realizar_consultas():
-    # Implementar la lógica para realizar consultas
-    print("Realizando consultas...")
+    print("Ingresando a consultas...")
+    consultas.menu_consultas()
 
-# Ejecutar el menú
 menu()

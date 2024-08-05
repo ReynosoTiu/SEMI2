@@ -19,23 +19,35 @@ def LeerArchivo(ruta_archivo):
 
     # Crear una tabla temporal en la base de datos
     create_table_query = """
-    create table #passengerdata (
-        passenger_id varchar(40),
-        first_name varchar(100),
-        last_name varchar(100),
-        gender varchar(10),
-        age int,
-        nationality varchar(100),
-        airport_name varchar(100),
-        airport_country_code varchar(50),
-        country_name varchar(100),
-        airport_continent varchar(10),
-        continents varchar(50),
-        departure_date date,
-        arrival_airport varchar(10),
-        pilot_name varchar(100),
-        flight_status varchar(20)
-    );
+    USE semi2practica1;
+    IF NOT EXISTS (
+        SELECT * 
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_NAME = 'PassengerDataTemp'
+    )
+    BEGIN
+        CREATE TABLE PassengerDataTemp (
+            passenger_id varchar(40),
+            first_name varchar(100),
+            last_name varchar(100),
+            gender varchar(10),
+            age int,
+            nationality varchar(100),
+            airport_name varchar(100),
+            airport_country_code varchar(50),
+            country_name varchar(100),
+            airport_continent varchar(10),
+            continents varchar(50),
+            departure_date date,
+            arrival_airport varchar(10),
+            pilot_name varchar(100),
+            flight_status varchar(20)
+        );
+    END
+    ELSE
+    BEGIN
+        TRUNCATE TABLE PassengerDataTemp;
+    END
     """
 
     # Ejecutar el comando de creación de tabla
@@ -45,14 +57,12 @@ def LeerArchivo(ruta_archivo):
 
     # Insertar datos en la tabla temporal
     insert_query = """
-    INSERT INTO #PassengerData (
+    INSERT INTO PassengerDataTemp (
         passenger_id, first_name, last_name, gender, age, nationality,        
         airport_name, airport_country_code, country_name, airport_continent,
         continents, departure_date, arrival_airport, pilot_name, flight_status
     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """
-
-    # Iterar sobre el DataFrame e insertar cada fila en la tabla temporal
     total_filas = len(df)
     with conn.cursor() as cursor:
         for index, row in df.iterrows():
