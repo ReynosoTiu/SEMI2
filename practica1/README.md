@@ -1,5 +1,5 @@
 # 1) DIAGRAMA DEL MODELO
-![Diagrama](/assets/er.png)
+![Diagrama](./assets/er.png)
 
 # 2) MANUAL TÉCNICO
 
