@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Compras.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:Compras.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Ventas.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:Ventas.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Dim Tiempo.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:Dim Tiempo.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\DimFecha.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:DimFecha.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+      "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Compras.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:Compras.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Ventas.cube [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Ventas.cube",
               "RelativeDocumentMoniker": "Ventas.cube",
@@ -42,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Compras.cube [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Compras.cube",
               "RelativeDocumentMoniker": "Compras.cube",
@@ -50,30 +42,6 @@
               "RelativeToolTip": "Compras.cube [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-10-22T12:27:45.843Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dim Tiempo.dim [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Dim Tiempo.dim",
-              "RelativeDocumentMoniker": "Dim Tiempo.dim",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Dim Tiempo.dim [Dise\u00F1o]",
-              "RelativeToolTip": "Dim Tiempo.dim [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-22T12:27:26.527Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DimFecha.dim [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\DimFecha.dim",
-              "RelativeDocumentMoniker": "DimFecha.dim",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\DimFecha.dim [Dise\u00F1o]",
-              "RelativeToolTip": "DimFecha.dim [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-22T12:24:59.825Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

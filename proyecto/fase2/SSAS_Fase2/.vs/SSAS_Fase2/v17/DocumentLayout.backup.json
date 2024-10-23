@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Ventas.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:Ventas.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Compras.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:Compras.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Ventas.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|solutionrelative:Ventas.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFFD53DD-F7CC-4C2D-AB71-010369C58A14}|SSAS_Fase2.dwproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Dim Tiempo.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Ventas.cube [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Ventas.cube",
               "RelativeDocumentMoniker": "Ventas.cube",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Compras.cube [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSAS_Fase2\\Compras.cube",
               "RelativeDocumentMoniker": "Compras.cube",
