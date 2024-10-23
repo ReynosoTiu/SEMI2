@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="SSRS_SEMI2F2">
+  <ConnectionProperties>
+    <Extension>OLEDB-MD</Extension>
+    <ConnectString>Data Source=DKWJLRT\SQLJLRT;Initial Catalog=SSAS_Fase2</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>2c68d1f9-1920-4454-82b9-15e37e8de1e8</DataSourceID>
+</RptDataSource>

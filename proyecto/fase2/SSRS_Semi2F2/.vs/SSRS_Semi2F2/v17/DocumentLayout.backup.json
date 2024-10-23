@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSRS_Semi2F2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D93FCA5-DA33-4D93-B924-82394598A652}|SSRS_Semi2F2.rptproj|C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSRS_Semi2F2\\Venta_Reporte1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2D93FCA5-DA33-4D93-B924-82394598A652}|SSRS_Semi2F2.rptproj|solutionrelative:Venta_Reporte1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Venta_Reporte1.rdl [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSRS_Semi2F2\\Venta_Reporte1.rdl",
+              "RelativeDocumentMoniker": "Venta_Reporte1.rdl",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Documentos\\USAC\\24\\2S\\Semi2\\SEMI2\\proyecto\\fase2\\SSRS_Semi2F2\\Venta_Reporte1.rdl [Dise\u00F1o]",
+              "RelativeToolTip": "Venta_Reporte1.rdl [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-23T01:06:03.212Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

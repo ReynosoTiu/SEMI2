@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS_Semi2F2", "SSRS_Semi2F2.rptproj", "{2D93FCA5-DA33-4D93-B924-82394598A652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.Debug|Default.ActiveCfg = Debug
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.Debug|Default.Build.0 = Debug
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.Debug|Default.Deploy.0 = Debug
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.DebugLocal|Default.Build.0 = DebugLocal
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.Release|Default.ActiveCfg = Release
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.Release|Default.Build.0 = Release
+		{2D93FCA5-DA33-4D93-B924-82394598A652}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17974146-A2D5-4912-B5E0-166361D1C01A}
+	EndGlobalSection
+EndGlobal

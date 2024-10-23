@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_Fase2</Database>
+    <Server>DKWJLRT\SQLJLRT</Server>
+    <ConnectionString>Data Source=DKWJLRT\SQLJLRT;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>0o6fHF+uRLgfBcGg6RAjVm0MGdY=22/10/2024 4:29:4922/10/2024 4:29:49</TimeStamp>
+        <ID>
+          <String>SEMINARIO2 201345126</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>0JQ2ITOn4h3vgBbkoOTw0bGNYtA=22/10/2024 6:25:2422/10/2024 6:25:24</TimeStamp>
+        <ID>
+          <String>SSAS_Fase2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Uhl4yUcYPS0XPxoIQrcsxcgwuo0=22/10/2024 6:31:3322/10/2024 4:30:07</TimeStamp>
+        <ID>
+          <String>SEMINARIO2 201345126</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VRgDqQYdXmr5t+lZ6OS3ERuDnpU=22/10/2024 4:30:2322/10/2024 4:30:23</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oVeCHiC71yEM1YPA57nPz0icfEI=22/10/2024 4:30:4722/10/2024 4:30:47</TimeStamp>
+        <ID>
+          <String>Dim Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UjDIxXYNKyOCT1kwErLGJRkbexw=22/10/2024 4:31:0422/10/2024 4:31:04</TimeStamp>
+        <ID>
+          <String>Dim Proveedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ws3GmLMQjzL3Ts0L2SUrjVB4XRM=22/10/2024 4:31:1522/10/2024 4:31:15</TimeStamp>
+        <ID>
+          <String>Dim Sucursal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>T0/ROh0yQxHhaoRMw9OInShGbXM=22/10/2024 4:31:3022/10/2024 4:31:30</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>flXIF76G2lbmgB0hZj29NFSQkIc=22/10/2024 4:31:4622/10/2024 4:31:45</TimeStamp>
+        <ID>
+          <String>Dim Vendedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>r4N6hKPmMRywgGOHSUOIY9Mi/Os=22/10/2024 6:25:3422/10/2024 6:24:59</TimeStamp>
+        <ID>
+          <String>DimFecha</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Ry3a4i3iBz5heL9ilhakCknSxt4=22/10/2024 6:37:5122/10/2024 4:50:02vKV+LqHp8XW6PPpRDhC50NvW7so=22/10/2024 4:50:0222/10/2024 4:50:02</TimeStamp>
+        <ID>
+          <String>Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>2LQVpE0asHkuRGIDW6Dz2LJOVhY=22/10/2024 6:34:1922/10/2024 4:49:18/CgHj+RpJtjxrlcik1YfQVBJaoU=22/10/2024 4:49:1822/10/2024 4:49:18</TimeStamp>
+        <ID>
+          <String>Compras</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>HmuaoA4IaI84J8H6HWJm5RKk0pg=22/10/2024 6:25:2422/10/2024 1:56:12</TimeStamp>
+      <ID>
+        <String>SSAS_Fase2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-10-22T12:37:57.72Z</LastDeployed>
+</DeploymentSnapshot>

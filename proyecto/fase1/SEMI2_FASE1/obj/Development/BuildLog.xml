@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SEMI2_FASE1</Name>
-    <LastWriteTime>2024-09-04T00:20:57.1256633Z</LastWriteTime>
+    <LastWriteTime>2024-10-22T06:23:16.7760932Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Package.dtsx</Name>
-      <LastWriteTime>2024-09-04T00:50:57.3353935Z</LastWriteTime>
+      <LastWriteTime>2024-10-22T06:43:09.9477609Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
